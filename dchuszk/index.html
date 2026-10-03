@@ -137,6 +137,28 @@ z-index:5;
 box-shadow:0 5px 15px rgba(255,0,102,0.4);
 }
 
+/* WATCH FULL VID BUTTON */
+
+.watch-full-btn{
+display:block;
+margin:14px 16px 0;
+padding:14px 20px;
+background:#ff2f6d;
+color:#fff;
+text-align:center;
+text-decoration:none;
+font-size:15px;
+font-weight:700;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(255,0,102,0.3);
+transition:transform 0.2s,opacity 0.2s;
+}
+
+.watch-full-btn:active{
+transform:scale(0.98);
+opacity:0.9;
+}
+
 /* INFO */
 
 .video-info{
@@ -267,6 +289,16 @@ type='video/mp4'>
 </video>
 
 </div>
+
+
+<!-- WATCH FULL VID -->
+
+<a
+class='watch-full-btn'
+href='https://x-hubb.github.io/Badiesgirlhub/'
+>
+Watch Full Vid
+</a>
 
 
 <div class='video-info'>
@@ -646,7 +678,7 @@ e=>e.preventDefault()
      DITEMPATKAN DI LUAR SCRIPT UTAMA
 ===================================================== -->
 
-<div id="histats_counter"></div>
+<div id='histats_counter'></div>
 
 <script type="text/javascript">
 
